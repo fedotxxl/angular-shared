@@ -1,0 +1,16 @@
+<div class="row wrapper border-bottom white-bg page-heading">
+  <div class="col-lg-10">
+    <h2>{{active}}</h2>
+    <ol class="breadcrumb">
+      <li *ngFor="let item of before" class="breadcrumb-item">
+        <a [routerLink]="item.url">{{getLabel(item.path)}}</a>
+      </li>
+      <li class="breadcrumb-item active">
+        <strong>{{active}}</strong>
+      </li>
+    </ol>
+  </div>
+  <div class="col-lg-2">
+
+  </div>
+</div>

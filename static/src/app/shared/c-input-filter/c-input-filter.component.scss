@@ -1,0 +1,20 @@
+:host {
+  ::ng-deep {
+    .c-input-filter_item {
+      .c-input-filter_item--type {
+        font-size: 9px;
+        line-height: 13px;
+      }
+
+      .c-input-filter_item--label {
+        line-height: 14px;
+      }
+
+      .remove {
+        font-size: 16px !important;
+        top: -2px !important;
+        right: 0 !important;
+      }
+    }
+  }
+}
